@@ -19,9 +19,9 @@
           <img
             src="files/icons/telephone-outliune.png"
             alt="An example icon"
-            style="width: 25px; height: 25px"
+            style="width: 20px; height: 20px"
           />
-          <p>0888 111 111</p>
+          0883 770 000
         </div>
       </div>
     </div>
@@ -214,11 +214,14 @@
           <div class="grid">
             <div class="grid-item-about">
               <div class="about-container">
-                <img
-                  src="files/icons/phone-call-coor.png"
-                  alt="An example icon"
-                  style="width: 50px; height: 50px"
-                />
+                <div class="call">
+                  <img
+                    src="files/icons/telephone-outliune.png"
+                    alt="An example icon"
+                    style="width: 20px; height: 20px"
+                  />
+                  0883 770 000
+                </div>
                 <p>Обаждане</p>
               </div>
             </div>
@@ -403,11 +406,14 @@
           <div class="grid">
             <div class="grid-item-about">
               <div class="about-container">
-                <img
-                  src="files/icons/phone-call-coor.png"
-                  alt="An example icon"
-                  style="width: 50px; height: 50px"
-                />
+                <div class="call">
+                  <img
+                    src="files/icons/telephone-outliune.png"
+                    alt="An example icon"
+                    style="width: 20px; height: 20px"
+                  />
+                  0883 770 000
+                </div>
                 <p>Обаждане</p>
               </div>
             </div>
@@ -562,11 +568,14 @@
           <div class="grid">
             <div class="grid-item-about">
               <div class="about-container">
-                <img
-                  src="files/icons/phone-call-coor.png"
-                  alt="An example icon"
-                  style="width: 50px; height: 50px"
-                />
+                <div class="call">
+                  <img
+                    src="files/icons/telephone-outliune.png"
+                    alt="An example icon"
+                    style="width: 20px; height: 20px"
+                  />
+                  0883 770 000
+                </div>
                 <p>Обаждане</p>
               </div>
             </div>
@@ -680,11 +689,14 @@
           <div class="grid">
             <div class="grid-item-about">
               <div class="about-container">
-                <img
-                  src="files/icons/phone-call-coor.png"
-                  alt="An example icon"
-                  style="width: 50px; height: 50px"
-                />
+                <div class="call">
+                  <img
+                    src="files/icons/telephone-outliune.png"
+                    alt="An example icon"
+                    style="width: 20px; height: 20px"
+                  />
+                  0883 770 000
+                </div>
                 <p>Обаждане</p>
               </div>
             </div>
@@ -837,50 +849,4 @@
       </div> -->
     </div>
   </body>
-  <!-- <script>
-    document.addEventListener(
-      "DOMContentLoaded",
-      function () {
-        const requestOptions = {
-          method: "GET",
-          redirect: "follow",
-        };
-
-        const loadVideo = (iframe, title) => {
-          const cid = "UCqjuKkHu1gTHiKkkgQ9baRQ";
-          const channelURL = encodeURIComponent(
-            `https://www.youtube.com/feeds/videos.xml?channel_id=${cid}`
-          );
-          const reqURL = `https://api.rss2json.com/v1/api.json?rss_url=${channelURL}`;
-          fetch(reqURL, requestOptions)
-            .then((response) => response.json())
-            .then((result) => {
-              const videoNumber = iframe.getAttribute("vnum")
-                ? Number(iframe.getAttribute("vnum"))
-                : 0;
-              const link = result.items[videoNumber].link;
-              const titleText = result.items[videoNumber].title;
-              const id = link.substr(link.indexOf("=") + 1);
-              iframe.setAttribute(
-                "src",
-                `https://youtube.com/embed/${id}`
-              );
-              title.innerText = htmlDecode(titleText);
-            })
-            .catch((error) => console.log("error", error));
-        };
-        var iframes = document.getElementsByClassName("youtube");
-        var titles = document.getElementsByClassName("title");
-        for (var i = 0, len = iframes.length; i < len; i++) {
-          loadVideo(iframes[i], titles[i]);
-        }
-      },
-      false
-    );
-
-    function htmlDecode(input) {
-      var doc = new DOMParser().parseFromString(input, "text/html");
-      return doc.documentElement.textContent;
-    }
-  </script> -->
 </html>
