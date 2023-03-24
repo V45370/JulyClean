@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   line-height: 1.6;
   /* background: #35383e; */
@@ -43,6 +47,12 @@ body {
 .right {
   float: right;
 }
+
+.right p {
+  display: inline-block;
+  margin-right: 20px;
+}
+
 .call {
   background-color: #04aa6d;
   font-family: "Source Sans Pro", sans-serif;
@@ -51,7 +61,7 @@ body {
   padding: 2px 10px;
   margin-top: 4px;
   margin-right: 10px;
-  display: block;
+  display: inline-block;
   /* float: right; */
   border-radius: 5px;
   height: 52px;
@@ -246,17 +256,26 @@ li {
   max-width: 400px;
 }
 
-.services-icon {
-  width: inherit;
-  height: inherit;
-}
-
 .services-container {
   text-align: center;
   color: white;
   /* margin: 20px; */
   width: 320px;
   height: 240px;
+}
+
+.services-icon {
+  width: 320px;
+  height: 240px;
+}
+
+.services-container a {
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.services-container a:hover {
+  opacity: 0.5;
 }
 
 .price-icon {
@@ -362,11 +381,15 @@ li {
 }
 
 .bg7 {
-  background-image: url("tiles2-thumbnail.jpg");
+  background-image: url("floor.jpg");
   opacity: 0.8;
 }
 .bg8 {
-  background-image: url("home-thumbnail.jpg");
+  background-image: url("bathroom.jpg");
+  opacity: 0.8;
+}
+.bg9 {
+  background-image: url("contact-us3.jpg");
   opacity: 0.8;
 }
 
@@ -409,6 +432,16 @@ li {
   color: #f6f3f3;
   text-align: center;
 }
+
+.contact-me-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.contact-icon {
+  width: 40px;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
