@@ -27,7 +27,7 @@ body {
 
 .topnav span.left {
   display: inline-block;
-  width: 300px;
+  width: 120px;
   margin-left: 10px;
 }
 
@@ -90,7 +90,7 @@ h1 {
   text-align: center;
   color: #2581e8;
   text-shadow: 3px 3px 3px rgb(24, 23, 23);
-  font-size: 60px;
+  font-size: 50px;
   margin: 0;
   text-align: center;
 }
