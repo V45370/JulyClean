@@ -195,8 +195,6 @@ th {
 
 .price-container {
   text-align: center;
-  /* color: white; */
-  /* margin: 20px; */
   width: 150px;
   height: 150px;
 }
@@ -204,7 +202,6 @@ th {
 .about-container {
   text-align: center;
   color: white;
-  /* margin: 20px; */
   width: 300px;
   height: 100px;
 }
@@ -213,14 +210,7 @@ th {
 }
 /* Content Parallax Section*/
 .content {
-  /* background: none repeat scroll 0 0 #35383e; */
-  /* background: rgb(88, 93, 103); */
   background: #2581e8;
-  /* background: linear-gradient(
-    0deg,
-    rgba(73,77,85, 0.9) 0%,
-    rgba(53, 56, 62, 0.8) 100%
-  ); */
   padding: 42px 0;
   color: #fff;
 }
@@ -257,13 +247,8 @@ th {
 }
 
 .bg1 {
-  background-image: url("julyclean-low2.png");
+  background-image: url("julyclean3.png");
   opacity: 0.8;
-  /* height: 1080px;
-  min-width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: -9999; */
 }
 .bg2 {
   background-image: url("vacuum-1080p.png");
@@ -323,19 +308,6 @@ th {
 tr:nth-child(even) {
   background-color: #4b92e2;
 }
-
-/* .background-image-container {
-  height: 300px;
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-.background-image-container img {
-  height: 1080px;
-  min-width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: -9999;
-} */
 .background-video h3 {
   color: #fff;
   font-size: 76px;
